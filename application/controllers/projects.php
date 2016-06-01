@@ -12,8 +12,6 @@ class Projects extends CI_Controller {
 		//$this->load->config();
 		//$this->load->library('javascript');
 		$this->load->model('project');
-		$dcloud_name = 'benjamin@openinstitute.com';
-		$dcloud_pass = 'private123456';
 	}
 
 	function index($start=0)
